@@ -19,15 +19,15 @@ define('DB_CHARSET', 'utf8mb4');
 // Site-wide settings
 define('SITE_NAME', 'VirtualHub Pro');
 define('SITE_URL', 'http://localhost/NBALOGMARKETPLACE');  // ← Change to your domain
-define('FLUTTERWAVE_PUBLIC_KEY', 'FLWPUBK_TEST-552b6eecd7bd29de2baac8f3ddc4d9bb-X');   // ← Add your key
-define('FLUTTERWAVE_SECRET_KEY', 'FLWSECK_TEST-97b6297e71e71803e2915f630b3d3cb6-X');   // ← Add your key
+define('FLUTTERWAVE_PUBLIC_KEY', '');   // ← Add your key
+define('FLUTTERWAVE_SECRET_KEY', '');   // ← Add your key
 define('WHATSAPP_NUMBER', '2348000000000');  // ← Your WhatsApp number (no +)
-define('SMSPROXY_API_KEY',   '695f0afa08ad4ec707b27e03ab685a60');
+define('SMSPROXY_API_KEY',   '');
 define('SMS_EXCHANGE_RATE',  1600);   // USD to NGN rate — update regularly
 define('SMS_PROFIT_MARGIN',  1.25);   // 1.25 = 25% markup (matches your working proxy)
 
 // Social Media Boosting (ReallySimpleSocial)
-define('SMM_API_KEY', 'd781c064da7f7e5985504c3a766e4e49');
+define('SMM_API_KEY', '');
 define('SMM_API_URL', 'https://reallysimplesocial.com/api/v2');
 define('SMM_MARKUP',  1.5);  // 50% markup over their USD rate → NGN
 
